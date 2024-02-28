@@ -1,5 +1,15 @@
 #include "binary_trees.h"
 
+/**
+ * binary_tree_leaves - Counts the number of leaf nodes in a binary tree.
+ * @tree: A pointer to the root node of the binary tree.
+ *
+ * This function recursively calculates the number of leaf nodes in the binary
+ * tree rooted at the given node. A leaf node is a node with no children.
+ *
+ * Returns: The number of leaf nodes in the binary tree. If the tree is NULL,
+ * returns 0.
+ */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	if (tree == NULL)
