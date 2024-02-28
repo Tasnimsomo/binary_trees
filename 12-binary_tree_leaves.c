@@ -7,8 +7,7 @@
  * This function recursively calculates the number of leaf nodes in the binary
  * tree rooted at the given node. A leaf node is a node with no children.
  *
- * Returns: The number of leaf nodes in the binary tree. If the tree is NULL,
- * returns 0.
+ * Return: The number of leaf nodes in the binary tree. If the tree is NULL,
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
